@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vintae</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+       <nav class="navbar">
+        <div class="logo"><img src="img/logoipsum-297.svg" alt=""></div>
+        <ul class="nav-links">
+            <li><a href="#datospersonales">Datos Personales</a></li>
+            <li><a href="#educacion">Educacion</a></li>
+            <li><a href="#laboral">Experiencia Laboral</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+       </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="img/img1.jpeg" width="150" height="200" alt="imagenpersonal">
+            <h1>Diana Massiel Garcia Selva</h1>
+            <p>Estudiante de cuarto año de la carrera universitaria de Ingenieria de Sistemas de Informacion
+                en la Universidad Nacional Autonoma de Nicaragua
+            </p>
+            
+        </div>
+    </section>
+
+    <section class="datospersonales" id="datospersonales">
+        <h2>Datos Personales</h2>
+        <div>
+            <ul>
+                <li><p><strong>Correo:</strong> massielgarcia240602@gmail.com</p></li>
+                <li><p><strong>Direccion:</strong> carretera norte, Barrio hugo chavez entrada principal, 21 anden al lago, 1/2 abajo, casa #H38</p></li>   
+                <li><p><strong>Telefono:</strong> 89940974</p></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="educacion" id="educacion">
+        <h2>Educacion</h2>
+        <div class="lista">
+            <div class="educacion">
+               <img src="img/educacion1.svg" alt="primaria">
+               <h3>Educacion Primaria</h3>
+               <h5>2009-2013</h5>
+               <p>
+                Colegio publico Mercedes Campos Martinez
+               </p>
+            </div>
+            <div class="educacion">
+                <img src="img/educacion2.svg" alt="secundaria">
+                <h3>Educacion Secundaria</h3>
+                <h5>2015-2019</h5>
+                <p>
+                    Colegio publico Camilo Zapata
+                </p>
+            </div>
+            <div class="educacion">
+                <img src="img/educacion3.svg" alt="universidad">
+                <h3>Educacion Universitaria</h3>
+                <h5>2020-actual</h5>
+                <p>
+                    Universidad Nacional Autonoma de Nicaragua
+                </p>
+                <p>(UNAN-Managua)</p>
+            </div>
+            <div class="educacion">
+                <img src="img/educacion4.svg" alt="extracurricular">
+                <h3>Educacion Extracurricular</h3>
+                <h5>2023-2023</h5>
+                <p>
+                    Universidad Nacional de Ingenieria (UNI)
+                </p>
+                <p>Curso de Transact SQL</p>
+                <p>(UNAN-Managua)</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="laboral" id="laboral">
+        <h2>Experiencia Laboral</h2>
+        <div class="lista2">
+        <div class="laborales">
+            <img src="img/laboral.svg" alt="laboral 1">
+            <h3>Centro de innovacion UNAN-Managua </h3>
+            <p>
+                Trabajo en equipo con otros compañeros en la creacion de un prototipo
+                de un sistema de asistencia.
+            </p>
+            <p class="client-name"></p>
+        </div>
+        <div class="laborales">
+            <img src="img/laboral.svg" alt="laboral 2">
+            <h3>Laboratorios departamento de computacion UNAN-Managua</h3>
+            <p>1. Ayudaba a mantener los laboratorios lista para su uso.</p>
+            <p>2. Instalacion de programas que se necesitaran.</p>
+            <p class="client-name"></p>
+        </div>
+    </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <img src="img/testimonio1.jpg" alt="Proyecto 1">
+            <h3>Centro de innovacion UNAN-Managua</h3>
+            <p>
+                Se realizo un prototipo de una base de datos. Este fue creado
+                en SQL Server y fue aprobado por los encargados del centro.
+            </p>
+            <p class="client-name2"></p>
+        </div>
+        
+    </section>
+
+    <section class="contato" id="contacto">
+        <h2>Contacto</h2>
+        <p>Este es mi contacto, ansio recibir respuesta</p>
+        <a href="mailto:massielgarcia240602@gmail.com" class="cta-button">Enviar correo</a>
+        <br />
+        <h3>o</h3>
+        <form action="procesar.php" method="post">
+        <h2>Interesados dejar un mensaje</h2>
+        <div class="form-group">
+           <label for="nombre">Nombre:</label>
+           <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+           <label for="email">Email:</label>
+           <input type="text" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+           <label for="mensaje">Mensaje:</label>
+           <textarea name="mensaje" id="mensaje" cols="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+  
+    <section class="footer" id="footer">
+        <p>&copy; 2023 Telematica. Todos los derechos reservados.</p>
+    </section>
+</body>
+</html>
